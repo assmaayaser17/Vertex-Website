@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import "@fontsource-variable/montserrat/index.css";
+@import "@fontsource-variable/cairo/index.css";
+
+@theme {
+  --color-vx-orange: #fc5302;
+  --color-vx-deep: #a33401;
+  --color-vx-navy: #172532;
+  /* Light warm tint used for panels in the brand guide */
+  --color-vx-sand: #fdf8f6;
+  --font-sans: "Montserrat Variable", "Cairo Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-arabic: "Cairo Variable", "Montserrat Variable", ui-sans-serif, system-ui, sans-serif;
+  --breakpoint-xs: 30rem;
+  --animate-rise: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  --animate-fade: fade 1.2s ease both;
+  --animate-float: float 7s ease-in-out infinite;
+  @keyframes rise { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: none; } }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 88px; }
+html[lang="ar"] body { font-family: var(--font-arabic); }
+body { background: #fff; color: var(--color-vx-navy); font-family: var(--font-sans); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+::selection { background: var(--color-vx-orange); color: #fff; }
+:focus-visible { outline: 3px solid var(--color-vx-orange); outline-offset: 3px; }
+
+/* Signature oblique cuts (mirrored automatically in RTL) */
+.cut-top { clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%); }
+[dir="rtl"] .cut-top { clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 100%); }
+.cut-corner-tr { clip-path: polygon(0 0, 86% 0, 100% 12%, 100% 100%, 0 100%); }
+[dir="rtl"] .cut-corner-tr { clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%, 0 12%); }
+.cut-btn { clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%); }
+[dir="rtl"] .cut-btn { clip-path: polygon(0 0, 100% 0, 100% 100%, 12px 100%, 0 calc(100% - 12px)); }
+[dir="rtl"] .flip-rtl { transform: scaleX(-1); }
+
+/* Reveal on scroll */
+.reveal { opacity: 0; transform: translateY(32px); transition: opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1); transition-delay: var(--d, 0ms); }
+.reveal.is-in { opacity: 1; transform: none; }
+.grow-bar { transform: scaleY(0); transform-origin: bottom; transition: transform 1s cubic-bezier(.2,.7,.2,1); transition-delay: var(--d, 0ms); }
+.is-in .grow-bar, .grow-bar.is-in { transform: scaleY(1); }
+@media (prefers-reduced-motion: reduce) {
+  .reveal, .grow-bar { opacity: 1; transform: none; transition: none; }
+  html { scroll-behavior: auto; }
+  * { animation-duration: .01ms !important; }
+}
+@media print { .reveal { opacity: 1 !important; transform: none !important; } }
