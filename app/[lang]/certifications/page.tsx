@@ -37,7 +37,7 @@ export default async function Certifications({ params }: { params: Promise<{ lan
             {certs.items.map((c, i) => (
               <Reveal key={c.key} delay={(i % 2) * 100} className="border border-vx-navy/12 bg-white p-4">
                 <img src={`/images/certs/${c.img}.jpg`} alt={`${c.code} ${tr(c.title, lang)}`} loading="lazy" className="h-[320px] w-full object-contain md:h-[420px]" />
-                <p className="px-2 pb-2 pt-4 text-base font-bold"><span dir="ltr">{c.code}{c.year ? ` : ${c.year}` : ""}</span> — {tr(c.title, lang)}</p>
+                <p className="px-2 pb-2 pt-4 text-base font-bold"><span dir="ltr">{c.code}{c.year ? ` : ${c.year}` : ""}</span>: {tr(c.title, lang)}</p>
               </Reveal>
             ))}
           </div>

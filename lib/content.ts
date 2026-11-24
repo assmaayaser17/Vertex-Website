@@ -31,8 +31,8 @@ export const hero = {
   title1: l("Where Foundations Meet ", "حيث تلتقي الأساسات "),
   title2: l("Excellence.", "بالتميّز."),
   lead: l(
-    "Premium commercial flooring — supply, installation and project coordination across Saudi Arabia, delivered with precision, durability and a clean handover.",
-    "أرضيات تجارية فاخرة — توريد وتركيب وتنسيق مشاريع في أنحاء المملكة، بدقة عالية ومتانة وتسليم نظيف.",
+    "Premium commercial flooring: supply, installation and project coordination across Saudi Arabia, delivered with precision, durability and a clean handover.",
+    "أرضيات تجارية فاخرة: توريد وتركيب وتنسيق مشاريع في أنحاء المملكة، بدقة عالية ومتانة وتسليم نظيف.",
   ),
   cta1: l("Explore Projects", "استعرض المشاريع"),
   cta2: l("Our Certifications", "شهاداتنا"),
@@ -67,8 +67,8 @@ export const about = {
   eyebrow: l("About Vertex", "عن فيرتكس"),
   title: l("A strong foundation under every project.", "أساس متين تحت كل مشروع."),
   body: l(
-    "Vertex delivers premium flooring supply, installation and project coordination across Saudi Arabia — wallcoverings, carpets, rugs and LVT/SPC flooring, from material sourcing to final handover.",
-    "تقدّم فيرتكس توريد وتركيب وتنسيق مشاريع الأرضيات الفاخرة في أنحاء المملكة العربية السعودية — تكسية جدران وسجاد وكاربت وأرضيات LVT/SPC، من توريد المواد حتى التسليم النهائي.",
+    "Vertex delivers premium flooring supply, installation and project coordination across Saudi Arabia: wallcoverings, carpets, rugs and LVT/SPC flooring, from material sourcing to final handover.",
+    "تقدّم فيرتكس توريد وتركيب وتنسيق مشاريع الأرضيات الفاخرة في أنحاء المملكة العربية السعودية: تكسية جدران وسجاد وكاربت وأرضيات LVT/SPC، من توريد المواد حتى التسليم النهائي.",
   ),
   strengths: [
     { icon: "check", title: l("Quality control", "ضبط الجودة"), text: l("Quality control from start to handover.", "ضبط للجودة من البداية حتى التسليم.") },
@@ -90,21 +90,21 @@ export const products = {
   intro: l("Core categories we supply and install across hospitality, commercial and corporate projects.", "فئات رئيسية نوفّرها ونركّبها في مشاريع الضيافة والمشاريع التجارية والمؤسسية."),
   items: [
     { key: "lvt", img: "range-0", n: "01", title: l("LVT / SPC Flooring", "أرضيات LVT / SPC"), text: l("Modern flooring with clean, consistent finishing.", "أرضيات عصرية بتشطيب نظيف ومتناسق."),
-      long: l("Luxury vinyl tile and stone polymer composite flooring — dimensionally stable, water-resistant and specified for high-traffic commercial interiors, with a consistent finish from room to room.", "أرضيات فينيل فاخرة وأرضيات SPC — ثابتة الأبعاد ومقاومة للماء ومناسبة للمساحات التجارية كثيفة الاستخدام، بتشطيب متناسق من غرفة إلى أخرى."),
+      long: l("Luxury vinyl tile and stone polymer composite flooring. Dimensionally stable, water-resistant and specified for high-traffic commercial interiors, with a consistent finish from room to room.", "أرضيات فينيل فاخرة وأرضيات SPC، ثابتة الأبعاد ومقاومة للماء ومناسبة للمساحات التجارية كثيفة الاستخدام، بتشطيب متناسق من غرفة إلى أخرى."),
       uses: [l("Offices & workspaces", "المكاتب ومساحات العمل"), l("Retail & showrooms", "المتاجر وصالات العرض"), l("Hospitality corridors", "ممرات الضيافة")] },
     { key: "roll", img: "range-1", n: "02", title: l("Carpet Roll", "سجاد رول"), text: l("Durable solutions for corridors and high-traffic areas.", "حلول متينة للممرات والمساحات كثيفة الاستخدام."),
-      long: l("Broadloom carpet in rolls for continuous coverage — acoustic comfort, warmth and durable performance in corridors, guest areas and large floor plates.", "سجاد رول لتغطية متصلة — راحة صوتية ودفء وأداء متين في الممرات ومناطق الضيوف والمساحات الكبيرة."),
+      long: l("Broadloom carpet in rolls for continuous coverage, with acoustic comfort, warmth and durable performance in corridors, guest areas and large floor plates.", "سجاد رول لتغطية متصلة، مع راحة صوتية ودفء وأداء متين في الممرات ومناطق الضيوف والمساحات الكبيرة."),
       uses: [l("Hotels & guestrooms", "الفنادق والغرف"), l("Schools & education", "المدارس والتعليم"), l("Corridors & lobbies", "الممرات والردهات")] },
     { key: "tiles", img: "range-2", n: "03", title: l("Carpet Tiles", "بلاط كاربت"), text: l("Flexible modular layouts for offices and commercial spaces.", "تصاميم مرنة للمكاتب والمساحات التجارية."),
-      long: l("Modular carpet tiles that allow flexible patterns, easy replacement and clean maintenance — a practical choice for open-plan offices and commercial fit-outs.", "بلاط كاربت معياري يتيح أنماطاً مرنة وسهولة في الاستبدال والصيانة — خيار عملي للمكاتب المفتوحة والتجهيزات التجارية."),
+      long: l("Modular carpet tiles that allow flexible patterns, easy replacement and clean maintenance. A practical choice for open-plan offices and commercial fit-outs.", "بلاط كاربت معياري يتيح أنماطاً مرنة وسهولة في الاستبدال والصيانة، وخيار عملي للمكاتب المفتوحة والتجهيزات التجارية."),
       uses: [l("Open-plan offices", "المكاتب المفتوحة"), l("Meeting rooms", "قاعات الاجتماعات"), l("Corporate fit-outs", "التجهيزات المؤسسية")] },
     { key: "rugs", img: "range-3", n: "04", title: l("Hand Tufted Rugs", "سجاد يدوي"), text: l("Custom designs for hospitality and premium interiors.", "تصاميم مخصصة للضيافة والمساحات الفاخرة."),
-      long: l("Custom hand-tufted rugs and carpets designed around the interior concept — pattern, colour and scale tailored for lobbies, lounges and suites.", "سجاد وكاربت مصنوع يدوياً بتصميم مخصص يتماشى مع فكرة التصميم الداخلي — نقش ولون ومقاس لكل ردهة وصالة وجناح."),
+      long: l("Custom hand-tufted rugs and carpets designed around the interior concept, with pattern, colour and scale tailored for lobbies, lounges and suites.", "سجاد وكاربت مصنوع يدوياً بتصميم مخصص يتماشى مع فكرة التصميم الداخلي، بنقش ولون ومقاس لكل ردهة وصالة وجناح."),
       uses: [l("Lobby lounges", "صالات الاستقبال"), l("Suites & guestrooms", "الأجنحة والغرف"), l("Premium interiors", "المساحات الفاخرة")] },
   ],
   wall: {
     title: l("Plus wall solutions", "بالإضافة إلى حلول الجدران"),
-    text: l("Wallcoverings for hospitality, commercial and corporate spaces — supplied and installed with the same standard.", "تكسية جدران للضيافة والمساحات التجارية والمؤسسية — توريد وتركيب بنفس المعيار."),
+    text: l("Wallcoverings for hospitality, commercial and corporate spaces, supplied and installed with the same standard.", "تكسية جدران للضيافة والمساحات التجارية والمؤسسية، توريد وتركيب بنفس المعيار."),
   },
   partners: {
     title: l("International partners", "شركاء دوليون"),
@@ -141,7 +141,7 @@ export const projects: Project[] = [
   {
     slug: "conrad-hotel",
     tag: l("Hospitality", "ضيافة"),
-    title: l("Conrad Hotel — Laysen Valley, Riyadh", "فندق كونراد — وادي لايسن، الرياض"),
+    title: l("Conrad Hotel, Laysen Valley, Riyadh", "فندق كونراد، وادي لايسن، الرياض"),
     short: l("Custom carpets and rugs for lobby lounge, guestrooms, corridors and suites.", "سجاد وأرضيات مخصصة لصالة الاستقبال والغرف والممرات والأجنحة."),
     text: l("A premium hospitality flooring package featuring custom carpets and rugs tailored for guestrooms, corridors, lounges, and suites. The project reflects refined detailing, contemporary pattern language, and seamless integration with the interior design concept.", "باقة أرضيات ضيافة فاخرة تضم سجاداً وكاربت مخصصاً للغرف والممرات والصالات والأجنحة. يعكس المشروع تفاصيل دقيقة ولغة نقوش معاصرة وتكاملاً سلساً مع فكرة التصميم الداخلي."),
     meta: {
@@ -157,7 +157,7 @@ export const projects: Project[] = [
   {
     slug: "cloud-spaces",
     tag: l("Commercial", "تجاري"),
-    title: l("Cloud Spaces — Premium Workspace", "كلاود سبيسز — مساحة عمل متميزة"),
+    title: l("Cloud Spaces: Premium Workspace", "كلاود سبيسز: مساحة عمل متميزة"),
     short: l("LVT flooring and carpet across reception, meeting rooms, offices and corridors.", "أرضيات LVT وكاربت في الاستقبال وقاعات الاجتماعات والمكاتب والممرات."),
     text: l("A contemporary workspace project delivered with a balanced mix of LVT flooring and carpet solutions across client-facing and collaboration areas. The result reflects clean detailing, warm material tones, and a refined finish aligned with a modern workplace environment.", "مشروع مساحة عمل عصرية نُفّذ بمزيج متوازن من أرضيات LVT والكاربت في مناطق استقبال العملاء والتعاون. النتيجة تفاصيل نظيفة وألوان مواد دافئة وتشطيب راقٍ يتوافق مع بيئة العمل الحديثة."),
     meta: {
@@ -173,7 +173,7 @@ export const projects: Project[] = [
   {
     slug: "misk-schools",
     tag: l("Education", "تعليم"),
-    title: l("Misk Schools — Mursia, Riyadh", "مدارس مسك — المرسية، الرياض"),
+    title: l("Misk Schools, Mursia, Riyadh", "مدارس مسك، المرسية، الرياض"),
     short: l("Durable carpet for learning zones, corridors and common areas.", "كاربت متين لمناطق التعلّم والممرات والمساحات المشتركة."),
     text: l("An education-focused flooring project developed to support active learning environments through durable carpet solutions, playful zoning, and a clean, coordinated finish. The scheme combines functionality with a distinctive visual identity across student circulation and activity spaces.", "مشروع أرضيات تعليمي يدعم بيئات التعلّم النشطة عبر حلول كاربت متينة وتقسيم مناطق مرح وتشطيب نظيف ومنسّق. يجمع التصميم بين الوظيفة وهوية بصرية مميزة في ممرات الطلاب ومساحات الأنشطة."),
     meta: {
@@ -197,18 +197,18 @@ export const projectLabels = {
   selected: l("Selected work", "مشاريع مختارة"),
   title: l("Spaces we've laid the foundation for.", "مساحات وضعنا أساسها."),
   allTitle: l("Projects that set the standard.", "مشاريع ترسم المعيار."),
-  allText: l("Hospitality, commercial and education projects delivered with the same discipline — from preparation to a clean handover.", "مشاريع ضيافة وتجارية وتعليمية نُفّذت بنفس الانضباط — من التجهيز حتى التسليم النظيف."),
+  allText: l("Hospitality, commercial and education projects delivered with the same discipline, from preparation to a clean handover.", "مشاريع ضيافة وتجارية وتعليمية نُفّذت بنفس الانضباط، من التجهيز حتى التسليم النظيف."),
 };
 
 export const logistics = {
   eyebrow: l("Logistics", "الخدمات اللوجستية"),
   title: l("International logistics & customs clearance.", "الشحن الدولي والتخليص الجمركي."),
   text: l(
-    "Reliable global movement, customs expertise and local delivery coordination through our appointed operational partner, Yanabea Al-Asimah for Investment Establishment — a Saudi-licensed customs clearance and logistics provider.",
-    "حركة شحن عالمية موثوقة وخبرة جمركية وتنسيق للتوصيل المحلي عبر شريكنا التشغيلي مؤسسة ينابيع العاصمة للاستثمار — مزوّد خدمات تخليص جمركي ولوجستية مرخّص في المملكة.",
+    "Reliable global movement, customs expertise and local delivery coordination through our appointed operational partner, Yanabea Al-Asimah, a Saudi-licensed customs clearance and logistics provider.",
+    "حركة شحن عالمية موثوقة وخبرة جمركية وتنسيق للتوصيل المحلي عبر شريكنا التشغيلي ينابيع العاصمة، مزوّد خدمات تخليص جمركي ولوجستية مرخّص في المملكة.",
   ),
   items: [
-    l("International transportation — sea, air and land", "النقل الدولي — بحري وجوي وبري"),
+    l("International transportation by sea, air and land", "النقل الدولي: بحري وجوي وبري"),
     l("Shipment consolidation", "تجميع الشحنات"),
     l("Customs clearance & documentation", "التخليص الجمركي والمستندات"),
     l("Inland transportation, door to door", "النقل الداخلي من الباب إلى الباب"),
@@ -218,7 +218,7 @@ export const logistics = {
 export const certs = {
   eyebrow: l("Certifications & compliance", "الشهادات والالتزام"),
   title: l("Certified. Compliant. Accountable.", "معتمدون. ملتزمون. مسؤولون."),
-  text: l("Health, safety and environmental procedures protect our teams, clients and projects — from the first site visit to handover.", "إجراءات الصحة والسلامة والبيئة تحمي فرقنا وعملاءنا ومشاريعنا، من أول زيارة للموقع حتى التسليم."),
+  text: l("Health, safety and environmental procedures protect our teams, clients and projects, from the first site visit to handover.", "إجراءات الصحة والسلامة والبيئة تحمي فرقنا وعملاءنا ومشاريعنا، من أول زيارة للموقع حتى التسليم."),
   items: [
     { key: "iso-9001", code: "ISO 9001", year: "2015", icon: "check", title: l("Quality Management", "إدارة الجودة"), img: "iso-9001" },
     { key: "iso-14001", code: "ISO 14001", year: "2015", icon: "leaf", title: l("Environmental Management", "الإدارة البيئية"), img: "iso-14001" },
@@ -229,7 +229,7 @@ export const certs = {
   tags: [l("Tender ready", "جاهزون للمناقصات"), l("Vendor onboarding", "تسجيل الموردين"), l("Compliance", "الالتزام")],
   hse: {
     title: l("Health, Safety & Environment", "الصحة والسلامة والبيئة"),
-    text: l("We maintain clear HSE practices to protect our teams, clients, and project sites — ensuring safe handling, installation, and site coordination. We follow structured procedures to meet project requirements and local regulations, and we promote a respectful workplace with equal opportunities.", "نطبّق ممارسات واضحة للصحة والسلامة والبيئة لحماية فرقنا وعملائنا ومواقع المشاريع، بما يضمن سلامة المناولة والتركيب وتنسيق الموقع. ونتبع إجراءات منظمة للوفاء بمتطلبات المشاريع واللوائح المحلية، ونعزز بيئة عمل محترمة وفرصاً متساوية."),
+    text: l("We maintain clear HSE practices to protect our teams, clients, and project sites, ensuring safe handling, installation, and site coordination. We follow structured procedures to meet project requirements and local regulations, and we promote a respectful workplace with equal opportunities.", "نطبّق ممارسات واضحة للصحة والسلامة والبيئة لحماية فرقنا وعملائنا ومواقع المشاريع، بما يضمن سلامة المناولة والتركيب وتنسيق الموقع. ونتبع إجراءات منظمة للوفاء بمتطلبات المشاريع واللوائح المحلية، ونعزز بيئة عمل محترمة وفرصاً متساوية."),
     cards: [
       { icon: "hard", title: l("Safety", "السلامة"), text: l("Risk prevention, PPE, and safe handling on site.", "الوقاية من المخاطر ومعدات الوقاية والمناولة الآمنة في الموقع.") },
       { icon: "shield", title: l("Compliance", "الالتزام"), text: l("Documentation, approvals, and regulatory alignment.", "التوثيق والاعتمادات والتوافق مع اللوائح.") },
@@ -259,13 +259,13 @@ export const certs = {
 export const approvals = {
   eyebrow: l("Some of our approvals", "نماذج من اعتماداتنا"),
   title: l("Submitted. Reviewed. Approved.", "مستندات مقدّمة. مراجَعة. معتمدة."),
-  text: l("A sample consultant-approved document submittal — the same disciplined process we follow on every project.", "نموذج لمستند مقدَّم ومعتمد من الاستشاري — بنفس المسار المنضبط الذي نتّبعه في كل مشروع."),
+  text: l("A sample consultant-approved document submittal, following the same disciplined process we follow on every project.", "نموذج لمستند مقدَّم ومعتمد من الاستشاري، بنفس المسار المنضبط الذي نتّبعه في كل مشروع."),
   img: "/images/approvals/snb-submittal.png",
   alt: l("Document submittal for SNB Level 38, Riyadh, stamped Approved by consultant SBCM", "مستند مقدَّم لمشروع البنك الأهلي السعودي الدور 38 بالرياض، مختوم بالاعتماد من الاستشاري SBCM"),
   status: l("Approved", "معتمد"),
   rows: [
-    { label: l("Project", "المشروع"), value: l("SNB Level 38 — Riyadh", "البنك الأهلي السعودي، الدور 38 — الرياض") },
-    { label: l("Client", "العميل"), value: l("SNB — Saudi National Bank", "البنك الأهلي السعودي (SNB)") },
+    { label: l("Project", "المشروع"), value: l("SNB Level 38, Riyadh", "البنك الأهلي السعودي، الدور 38، الرياض") },
+    { label: l("Client", "العميل"), value: l("Saudi National Bank (SNB)", "البنك الأهلي السعودي (SNB)") },
     { label: l("Consultant", "الاستشاري"), value: l("SBCM", "SBCM") },
     { label: l("Contractor", "المقاول"), value: l("Vertex Investment", "فيرتكس للاستثمار") },
     { label: l("Submittal", "المستند"), value: l("EGE carpet types & location", "أنواع كاربت EGE ومواقعها") },
@@ -298,7 +298,7 @@ export const field = {
 
 export const cta = {
   title: l("Let's build on a strong foundation.", "لنبنِ معًا على أساس متين."),
-  text: l("Tell us about your project — we'll respond with a clear scope, timeline and quotation.", "حدّثنا عن مشروعك، وسنرد عليك بنطاق عمل وجدول زمني وعرض سعر واضح."),
+  text: l("Tell us about your project and we'll respond with a clear scope, timeline and quotation.", "حدّثنا عن مشروعك، وسنرد عليك بنطاق عمل وجدول زمني وعرض سعر واضح."),
 };
 
 export const form = {
@@ -312,7 +312,7 @@ export const form = {
   send: l("Send enquiry", "أرسل الاستفسار"),
   sendWa: l("Send via WhatsApp", "أرسل عبر واتساب"),
   hint: l("Opens your email app with the enquiry ready to send.", "يفتح تطبيق البريد برسالة جاهزة للإرسال."),
-  subject: l("Project enquiry — Vertex website", "استفسار عن مشروع — موقع فيرتكس"),
+  subject: l("Project enquiry | Vertex website", "استفسار عن مشروع | موقع فيرتكس"),
 };
 
 export const aboutPage = {
@@ -349,7 +349,7 @@ export const aboutPage = {
 
 export const productsPage = {
   title: l("Flooring and walls, specified to perform.", "أرضيات وجدران بمواصفات تضمن الأداء."),
-  lead: l("Four flooring categories plus wallcoverings — supplied, installed and coordinated by one team.", "أربع فئات أرضيات بالإضافة إلى تكسية الجدران — توريد وتركيب وتنسيق من فريق واحد."),
+  lead: l("Four flooring categories plus wallcoverings, supplied, installed and coordinated by one team.", "أربع فئات أرضيات بالإضافة إلى تكسية الجدران: توريد وتركيب وتنسيق من فريق واحد."),
   usedIn: l("Typical use", "الاستخدامات"),
 };
 
@@ -367,10 +367,10 @@ export const contactPage = {
 };
 
 export const pageMeta = {
-  home: { title: l("Vertex — Premium Flooring & Interior Finishing, Riyadh", "فيرتكس — أرضيات وتشطيبات داخلية فاخرة، الرياض"), desc: l("Premium commercial flooring supply, installation and project coordination across Saudi Arabia: LVT/SPC, carpet, wallcovering and hand tufted rugs.", "توريد وتركيب وتنسيق مشاريع الأرضيات التجارية الفاخرة في المملكة: LVT/SPC وكاربت وتكسية جدران وسجاد يدوي.") },
-  about: { title: l("About — Vertex", "من نحن — فيرتكس"), desc: l("Who we are, our team structure, installation tools and approach to quality and HSE.", "من نحن وهيكل فريقنا وأدوات التركيب ونهجنا في الجودة والصحة والسلامة.") },
-  products: { title: l("Products — Vertex", "المنتجات — فيرتكس"), desc: l("LVT/SPC flooring, carpet roll, carpet tiles, hand tufted rugs and wallcoverings.", "أرضيات LVT/SPC وسجاد رول وبلاط كاربت وسجاد يدوي وتكسية جدران.") },
-  projects: { title: l("Projects — Vertex", "المشاريع — فيرتكس"), desc: l("Conrad Hotel, Cloud Spaces, Misk Schools and more.", "فندق كونراد وكلاود سبيسز ومدارس مسك وغيرها.") },
-  certifications: { title: l("Certifications — Vertex", "الشهادات — فيرتكس"), desc: l("ISO 9001, ISO 14001, ISO 45001 and commercial registration.", "ISO 9001 وISO 14001 وISO 45001 والسجل التجاري.") },
-  contact: { title: l("Contact — Vertex", "تواصل معنا — فيرتكس"), desc: l("Phone, email and head-office location in Riyadh.", "الهاتف والبريد وموقع المقر الرئيسي في الرياض.") },
+  home: { title: l("Vertex | Premium Flooring & Interior Finishing, Riyadh", "فيرتكس | أرضيات وتشطيبات داخلية فاخرة، الرياض"), desc: l("Premium commercial flooring supply, installation and project coordination across Saudi Arabia: LVT/SPC, carpet, wallcovering and hand tufted rugs.", "توريد وتركيب وتنسيق مشاريع الأرضيات التجارية الفاخرة في المملكة: LVT/SPC وكاربت وتكسية جدران وسجاد يدوي.") },
+  about: { title: l("About | Vertex", "من نحن | فيرتكس"), desc: l("Who we are, our team structure, installation tools and approach to quality and HSE.", "من نحن وهيكل فريقنا وأدوات التركيب ونهجنا في الجودة والصحة والسلامة.") },
+  products: { title: l("Products | Vertex", "المنتجات | فيرتكس"), desc: l("LVT/SPC flooring, carpet roll, carpet tiles, hand tufted rugs and wallcoverings.", "أرضيات LVT/SPC وسجاد رول وبلاط كاربت وسجاد يدوي وتكسية جدران.") },
+  projects: { title: l("Projects | Vertex", "المشاريع | فيرتكس"), desc: l("Conrad Hotel, Cloud Spaces, Misk Schools and more.", "فندق كونراد وكلاود سبيسز ومدارس مسك وغيرها.") },
+  certifications: { title: l("Certifications | Vertex", "الشهادات | فيرتكس"), desc: l("ISO 9001, ISO 14001, ISO 45001 and commercial registration.", "ISO 9001 وISO 14001 وISO 45001 والسجل التجاري.") },
+  contact: { title: l("Contact | Vertex", "تواصل معنا | فيرتكس"), desc: l("Phone, email and head-office location in Riyadh.", "الهاتف والبريد وموقع المقر الرئيسي في الرياض.") },
 };
