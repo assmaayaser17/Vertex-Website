@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { dir, isLang, locales } from "@/lib/i18n";
 import { site } from "@/lib/site";
 
@@ -21,6 +22,7 @@ export default async function RootLayout({ children, params }: { children: React
         <Header lang={lang} />
         <main id="main">{children}</main>
         <Footer lang={lang} />
+        <WhatsAppButton lang={lang} />
       </body>
     </html>
   );

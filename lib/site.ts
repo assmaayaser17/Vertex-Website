@@ -6,6 +6,10 @@ export const site = {
   phone: "+966 55 548 0551",
   phoneRaw: "966555480551",
   email: "Rabea@vertexinvestgroup.sa",
+  // Where the enquiry form and "Request a Quote" send to
+  formEmail: "info@vertexconstruction.sa",
+  whatsapp: "+966 50 061 0291",
+  whatsappRaw: "966500610291",
   website: "www.vertexinvestgroup.sa",
   domain: "https://www.vertexinvestgroup.sa",
   address: {

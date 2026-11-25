@@ -10,8 +10,8 @@ export function QuoteForm({ lang, className = "" }: { lang: Lang; className?: st
   const [contact, setContact] = useState("");
   const [project, setProject] = useState("");
   const body = `${tr(F.name, lang)}: ${name}\n${tr(F.contact, lang)}: ${contact}\n${tr(F.project, lang)}: ${project}`;
-  const mailto = `mailto:${site.email}?subject=${encodeURIComponent(tr(F.subject, lang))}&body=${encodeURIComponent(body)}`;
-  const wa = `https://wa.me/${site.phoneRaw}?text=${encodeURIComponent(`${tr(F.subject, lang)}\n\n${body}`)}`;
+  const mailto = `mailto:${site.formEmail}?subject=${encodeURIComponent(tr(F.subject, lang))}&body=${encodeURIComponent(body)}`;
+  const wa = `https://wa.me/${site.whatsappRaw}?text=${encodeURIComponent(`${tr(F.subject, lang)}\n\n${body}`)}`;
   const field = "w-full rounded-none border border-vx-navy/30 bg-vx-sand px-4 py-3.5 text-base normal-case text-vx-navy placeholder:text-vx-navy/50 focus:border-vx-navy focus:outline-2 focus:outline-vx-navy";
   const label = "grid gap-2 text-[13px] font-bold uppercase rtl:text-[15px] rtl:normal-case";
   return (

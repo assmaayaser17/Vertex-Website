@@ -15,8 +15,8 @@ export function CtaBand({ lang }: { lang: Lang }) {
           <h2 className="mb-6 text-[38px] font-bold leading-[1.04] md:text-[56px] lg:text-[64px] rtl:leading-[1.28]">{tr(cta.title, lang)}</h2>
           <p className="max-w-[560px] text-lg font-medium leading-relaxed md:text-xl">{tr(cta.text, lang)}</p>
           <div className="mt-9 flex flex-wrap gap-4">
-            <Btn href={`mailto:${site.email}`} variant="white" arrow>{tr(ui.quote, lang)}</Btn>
-            <a href={`https://wa.me/${site.phoneRaw}`} target="_blank" rel="noopener noreferrer" className="inline-flex h-14 items-center justify-center gap-3 border-2 border-white px-7 text-[15px] font-bold transition-colors hover:bg-white hover:text-vx-navy"><Icon name="wa" size={20} />{tr(ui.whatsapp, lang)}</a>
+            <Btn href={`mailto:${site.formEmail}`} variant="white" arrow>{tr(ui.quote, lang)}</Btn>
+            <a href={`https://wa.me/${site.whatsappRaw}`} target="_blank" rel="noopener noreferrer" className="inline-flex h-14 items-center justify-center gap-3 border-2 border-white px-7 text-[15px] font-bold transition-colors hover:bg-white hover:text-vx-navy"><Icon name="wa" size={20} />{tr(ui.whatsapp, lang)}</a>
           </div>
         </div>
         <QuoteForm lang={lang} />

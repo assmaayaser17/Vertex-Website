@@ -6,7 +6,7 @@ import { Reveal } from "@/components/Reveal";
 import { Icon } from "@/components/Icon";
 import { QuoteForm } from "@/components/QuoteForm";
 import { LocationSection } from "@/components/InfoSections";
-import { contactPage, pageMeta } from "@/lib/content";
+import { contactPage, pageMeta, ui } from "@/lib/content";
 import { site } from "@/lib/site";
 import { isLang, locales, tr } from "@/lib/i18n";
 
@@ -23,6 +23,7 @@ export default async function Contact({ params }: { params: Promise<{ lang: stri
   const C = contactPage;
   const rows = [
     { icon: "phone", label: C.phone, value: <a dir="ltr" href={`tel:+${site.phoneRaw}`} className="hover:text-vx-orange">{site.phone}</a> },
+    { icon: "wa", label: ui.whatsapp, value: <a dir="ltr" href={`https://wa.me/${site.whatsappRaw}`} target="_blank" rel="noopener noreferrer" className="hover:text-vx-orange">{site.whatsapp}</a> },
     { icon: "mail", label: C.email, value: <a dir="ltr" href={`mailto:${site.email}`} className="break-all hover:text-vx-orange">{site.email}</a> },
     { icon: "globe", label: C.website, value: <span dir="ltr">{site.website}</span> },
     { icon: "pin", label: C.address, value: <>{tr(site.address, lang)}</> },
